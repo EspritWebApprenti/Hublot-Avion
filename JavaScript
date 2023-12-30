@@ -1,0 +1,47 @@
+document.addEventListener('DOMContentLoaded', function() {
+    const icone = document.querySelector('.icone');
+    const landing = document.querySelector('.landing');
+    const singapore = document.querySelector('.singapore');
+    const vitesse = document.querySelector('.vitesse');
+    const vitessed = document.querySelector('.vitessed');
+    const texte_tableau = document.querySelector('.texte_tableau');
+    const traits = document.querySelector('.traits');
+    const fleche_gauche = document.querySelector('.fleche_gauche');
+    const fleche_droite = document.querySelector('.fleche_droite');
+
+    setTimeout(function() {
+        icone.classList.add('icone_active')
+    }, 500);
+
+    setTimeout(function() {
+        landing.classList.add('landing_active')
+    }, 1300);
+
+    setTimeout(function() {
+        singapore.classList.add('singapore_active')
+    }, 1500);
+
+    setTimeout(function() {
+        vitesse.classList.add('vitesse_active')
+    }, 2000);
+
+    setTimeout(function() {
+        vitessed.classList.add('vitessed_active')
+    }, 2000);
+
+    setTimeout(function() {
+        texte_tableau.classList.add('texte_tableau_active')
+    }, 3700);
+
+    setTimeout(function() {
+        traits.classList.add('traits_active')
+    }, 3700);
+
+    setTimeout(function() {
+        fleche_gauche.classList.add('fleche_gauche_active')
+    }, 3700);
+
+    setTimeout(function() {
+        fleche_droite.classList.add('fleche_droite_active')
+    }, 3700);
+});
